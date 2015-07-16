@@ -1,0 +1,15 @@
+{
+  "name": "grunt-cucumber-test",
+  "version": "1.0.0",
+  "author": "Marcin Gryszko",
+  "license": "ISC",
+  "scripts": {
+    "cucumberjs": "./node_modules/.bin/cucumber.js features --require step_definitions"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cucumber": "^0.3.0",
+    "selenium-webdriver": "^2.46.1"
+  }
+}
